@@ -3,7 +3,7 @@ const { route } = require("./dashboard");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.render("layouts/main");
+  res.render("buku/index");
 });
 
 router.get("/new", (req, res) => {

@@ -5,6 +5,7 @@ const app = express();
 
 // Config
 const config = require("./config/config");
+config.connectDB();
 
 // Route
 const dashboard = require("./app/routes/dashboard");

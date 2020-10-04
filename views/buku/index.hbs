@@ -14,14 +14,15 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {{#each buku as |item|}}
                     <tr>
                         <td>x</td>
-                        <td>x</td>
-                        <td>x</td>
-                        <td>x</td>
-                        <td>x</td>
-                        <td>x</td>
+                        <td>{{item.judul}}</td>
+                        <td>{{item.isbn}}</td>
+                        <td>{{item.pengarang}}</td>
+                        <td>{{item.penerbit}}</td>
                     </tr>
+                    {{/each}}
                 </tbody>
             </table>
         </div>

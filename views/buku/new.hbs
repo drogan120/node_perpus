@@ -1,6 +1,6 @@
 <div class="card shadow">
     <div class="card-body">
-        <form action="" method="post">
+        <form action="/buku/new" method="POST">
             <div class="form-group">
                 <label for="judul">Judul</label>
                 <input type="text" name="judul" class="form-control">
@@ -16,10 +16,6 @@
             <div class="form-group">
                 <label for="isbn">isbn</label>
                 <input type="text" name="isbn" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="penerbit">penerbit</label>
-                <input type="text" name="penerbit" class="form-control">
             </div>
             <div class="form-group">
                 <label for="nomor_cetak">nomor_cetak</label>
@@ -39,7 +35,7 @@
             </div>
             <div class="form-group">
                 <label for="cover">cover</label>
-                <input type="file" name="cover" id="coer" class="form-control">
+                <input type="file" name="cover" id="cover" class="form-control">
             </div>
             <button type="submit" class="btn btn-info">Simpan</button>
         </form>

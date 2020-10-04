@@ -35,15 +35,15 @@ let bukuSchema = new Schema({
   },
   cover: {
     type: String,
-    required: true,
+    required: false,
   },
   created_at: {
-    type: String,
-    required: true,
+    type: Date,
+    default: Date.now,
   },
   updated_at: {
-    type: String,
-    required: true,
+    type: Date,
+    default: Date.now,
   },
 });
 
